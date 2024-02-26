@@ -1,0 +1,406 @@
+/************************
+
+
+
+
+
+
+        This Progress Bar Made By RIM
+
+
+
+
+
+
+*************************/
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(to right , #ff9a9e, #fecfef, #ff9a9e);
+    font-family: verdana;
+}
+body h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: #26d07c;
+    cursor: pointer;
+}
+body h1 d {
+    color: #00a3e0;
+    cursor: pointer;
+}
+body h1:hover {
+    text-align: center;
+    padding-top: 100px;
+    font-family: verdana;
+    color: #00a3e0;
+    cursor: pointer;
+}
+body h1 d:hover {
+    color: #26d07c;
+    cursor: pointer;
+}
+.prog_HTML {
+    height: 25px;
+    width: 980px;
+    background-image: linear-gradient(to right , #26d07c, #00a3e0, #26d07c);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+}
+.prog_HTML:hover {
+    height: 25px;
+    width: 980px;
+    background-image: linear-gradient(to right , #00a3e0, #26d07c, #00a3e0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+    cursor: default;
+}
+.unprog_HTML {
+    height: 25px;
+    width: 1000px;
+    background-color: white;
+    border-left-width: 3px;
+    border-left-color: #00a3e0;
+    border-left-style: solid;
+    border-right-width: 3px;
+    border-right-color: #00a3e0;
+    border-right-style: solid;
+    border-top-width: 3px;
+    border-top-color: #26d07c;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #26d07c;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+.margin_1 {
+    margin-top: 50px;
+}
+.H {
+    color: #26d07c;
+}
+.M {
+    color: #26d07c;
+}
+.T {
+    color: #00a3e0;
+}
+.L {
+    color: #00a3e0;
+}
+.prog_CSS {
+    height: 25px;
+    width: 700px;
+    background-image: linear-gradient(to right , #00a3e0, #26d07c, #00a3e0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 300px;
+    color: #ff9a9e;
+}
+.prog_CSS:hover {
+    height: 25px;
+    width: 700px;
+    background-image: linear-gradient(to right , #26d07c, #00a3e0, #26d07c);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 300px;
+    color: #ff9a9e;
+    cursor: default;
+}
+.unprog_CSS {
+    height: 25px;
+    width: 1000px;
+    background-color: white;
+    border-left-width: 3px;
+    border-left-color: #26d07c;
+    border-left-style: solid;
+    border-right-width: 3px;
+    border-right-color: #26d07c;
+    border-right-style: solid;
+    border-top-width: 3px;
+    border-top-color: #00a3e0;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #00a3e0;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.margin_1 {
+    margin-top: 50px;
+}
+.C {
+    color: #00a3e0;
+}
+.S {
+    color: #26d07c;
+}
+.S2 {
+    color: #00a3e0;
+}
+.prog_JS {
+    height: 25px;
+    width: 1000px;
+    background-image: linear-gradient(to right , #26d07c, #00a3e0, #26d07c);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+}
+.prog_JS:hover {
+    height: 25px;
+    width: 1000px;
+    background-image: linear-gradient(to right , #00a3e0, #26d07c, #00a3e0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+    cursor: default;
+}
+.unprog_JS {
+    height: 25px;
+    width: 1000px;
+    background-color: white;
+    border-left-width: 3px;
+    border-left-color: #00a3e0;
+    border-left-style: solid;
+    border-right-width: 3px;
+    border-right-color: #00a3e0;
+    border-right-style: solid;
+    border-top-width: 3px;
+    border-top-color: #26d07c;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #26d07c;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.margin_1 {
+    margin-top: 50px;
+}
+.H {
+    color: #26d07c;
+}
+.M {
+    color: #26d07c;
+}
+.T {
+    color: #00a3e0;
+}
+.L {
+    color: #00a3e0;
+}
+.J1 {
+    color: #26d07c;
+}
+.A1-1 {
+    color: #00a3e0
+}
+.V1 {
+    color: #26d07c;
+}
+.A1 {
+    color: #00a3e0;
+}
+.S1 {
+    color: #26d07c;
+}
+.C1 {
+    color: #00a3e0;
+}
+.R1 {
+    color: #26d07c;
+}
+.I1 {
+    color: #00a3e0;
+}
+.P1 {
+    color: #26d07c;
+}
+.T1 {
+    color: #00a3e0;
+}
+.blue {
+    color: #00a3e0;
+    cursor: default;
+}
+.green {
+    color: #26d07c;
+    cursor: default;
+}
+.blue:hover {
+    color: #26d07c;
+    cursor: default;
+}
+.green:hover {
+    color: #00a3e0;
+    cursor: default;
+}
+.prog_BS {
+    height: 25px;
+    width: 150px;
+    background-image: linear-gradient(to right , #00a3e0, #26d07c, #00a3e0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 850px;
+    color: #ff9a9e;
+}
+.prog_BS:hover {
+    height: 25px;
+    width: 150px;
+    background-image: linear-gradient(to right , #26d07c, #00a3e0, #26d07c);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 850px;
+    color: #ff9a9e;
+    cursor: default;
+}
+.unprog_BS {
+    height: 25px;
+    width: 1000px;
+    background-color: white;
+    border-left-width: 3px;
+    border-left-color: #26d07c;
+    border-left-style: solid;
+    border-right-width: 3px;
+    border-right-color: #26d07c;
+    border-right-style: solid;
+    border-top-width: 3px;
+    border-top-color: #00a3e0;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #00a3e0;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.margin_1 {
+    margin-top: 50px;
+}
+.prog_PHP {
+    height: 25px;
+    width: 1000px;
+    background-image: linear-gradient(to right , #26d07c, #00a3e0, #26d07c);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+}
+.prog_PHP:hover {
+    height: 25px;
+    width: 1000px;
+    background-image: linear-gradient(to right , #00a3e0, #26d07c, #00a3e0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+    cursor: default;
+}
+.unprog_PHP {
+    height: 25px;
+    width: 1000px;
+    background-color: white;
+    border-left-width: 3px;
+    border-left-color: #00a3e0;
+    border-left-style: solid;
+    border-right-width: 3px;
+    border-right-color: #00a3e0;
+    border-right-style: solid;
+    border-top-width: 3px;
+    border-top-color: #26d07c;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #26d07c;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.margin_1 {
+    margin-top: 50px;
+}
+.prog_RJS {
+    height: 25px;
+    width: 1000px;
+    background-image: linear-gradient(to right , #00a3e0, #26d07c, #00a3e0);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+}
+.prog_RJS:hover {
+    height: 25px;
+    width: 1000px;
+    background-image: linear-gradient(to right , #26d07c, #00a3e0, #26d07c);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ff9a9e;
+    cursor: default;
+}
+.unprog_RJS {
+    height: 25px;
+    width: 1000px;
+    background-color: white;
+    border-left-width: 3px;
+    border-left-color: #00a3e0;
+    border-left-style: solid;
+    border-right-width: 3px;
+    border-right-color: #00a3e0;
+    border-right-style: solid;
+    border-top-width: 3px;
+    border-top-color: #26d07c;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #26d07c;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.margin_1 {
+    margin-top: 50px;
+}
+.CopyRight {
+    text-align: center;
+}
+
+
+
+
+
+
+/************************
+
+
+
+
+
+
+        This Progress Bar Made By RIM
+
+
+
+
+
+
+*************************/
